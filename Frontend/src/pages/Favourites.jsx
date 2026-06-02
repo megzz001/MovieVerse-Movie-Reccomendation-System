@@ -1,7 +1,8 @@
 import React from 'react'
+import '../css/Favorites.css'
 
-const Favourite = () => {
-  
+const Favourites = () => {
+
   return (
     <div className='favourite-empty'>
       <h2>No favourite movie yet :)</h2>
@@ -10,4 +11,4 @@ const Favourite = () => {
   )
 }
 
-export default Favourite
+export default Favourites
